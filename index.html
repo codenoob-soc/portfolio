@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <title>My Web Page</title>
+  <style>
+  /* Change the appearance of hyperlinks */
+  a {
+    color: rgb(232, 223, 223); /* Change the color of the link */
+    text-decoration: none; /* Remove the underline */
+  }
+    p {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+    
+    h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+    h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+    /* Set the background color of the body element to light blue */
+body {
+  background-color: lightblue;
+}
+
+/* Set the font style and size of the header element */
+h1 {
+  font-family: "Sofia", sans-serif;
+  font-size: 56px;
+  animation: blink 1s infinite;
+}
+
+/* Set the font style and size of the paragraph element */
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+/* Set the background color animation */
+body {
+  background: linear-gradient(45deg, #1b1a1a, #412828, #0c2a34, #062b22);
+  background-size: 400% 400%;
+  animation: bg-color 3s infinite;
+}
+
+@keyframes blink {
+  12% {
+    opacity: 0;
+  }
+}
+
+@keyframes bg-color {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+</style>
+</head>
+<body>
+  <h1><a href="resume.html">Click here</a></h1>
+  <p></p>
+</body>
+</html>

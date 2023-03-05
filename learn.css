@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+  }
+  
+  /* Set the font style and size of the header element */
+  h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+  }
+  
+  /* Set the font style and size of the paragraph element */
+  p {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+  }
